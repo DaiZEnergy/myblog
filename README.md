@@ -1,2 +1,0 @@
-# myblog.github.io
-myblog
