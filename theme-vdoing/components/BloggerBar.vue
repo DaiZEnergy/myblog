@@ -1,7 +1,7 @@
 <template>
   <aside class="blogger-wrapper card-box">
     <div class="avatar">
-      <img :src="blogger.avatar" alt="头像" title="我好看吗" />
+      <img :src="logo" alt="头像" title="我好看吗" />
     </div>
     <div class="icons" v-if="social && social.icons && social.icons.length">
       <a
@@ -23,6 +23,11 @@
 
 <script>
 export default {
+  data(){
+    return {
+      logo:require('./EB-logo.png')
+    }
+  },
   computed: {
     blogger () {
       return this.$themeConfig.blogger
