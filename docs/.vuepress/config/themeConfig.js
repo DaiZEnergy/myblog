@@ -52,7 +52,8 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: "https://img1.baidu.com/it/u=2186733342,69312577&fm=26&fmt=auto",
+    avatar:
+      "https://gips2.baidu.com/it/u=3282726167,2669364085&fm=3074&app=3074&f=PNG?w=2048&h=2048",
     name: "DZH",
     slogan: "大前端世界",
   },
